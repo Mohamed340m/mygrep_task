@@ -30,6 +30,16 @@ Screenshots included:
 - `./mygrep.sh -v testfile.txt` (shows error due to missing search string)
 
 ---
+Adding regex support would require removing -q from grep and implementing pattern validation. For -i (case-sensitive), -c (count), or -l (files-with-matches) options, we'd:
+
+Add new flags in getopts
+
+Create corresponding boolean variables
+
+Modify output formatting logic
+
+Development Challenges:
+The most complex part was handling option combinations while maintaining proper argument validation. The initial syntax error (extra closing brace) demonstrates how subtle bash scripting errors can break entire functionality. Proper argument shifting after getopts and maintaining case-insensitive matching across both normal/inverted modes required careful testing.
 
 
 
