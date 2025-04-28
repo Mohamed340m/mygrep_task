@@ -1,7 +1,6 @@
-# mygrep_task
 ## **Custom Command (mygrep.sh)**
 
-You're asked to build a mini version of the grep command. Your script will be called `mygrep.sh` and must support:
+build a mini version of the grep command. Your script will be called `mygrep.sh` and must support:
 **🔹 Basic Functionality**
 • Search for a string (case-insensitive)
 • Print matching lines from a text file
