@@ -22,7 +22,6 @@ HELLO AGAIN
 Don't match this line
 Testing one two three
 ✅ Include:
-• Screenshot of your terminal running the script with: 
     ◦ ./mygrep.sh hello testfile.txt
     ◦ ./mygrep.sh -n hello testfile.txt
     ◦ ./mygrep.sh -vn hello testfile.txt
